@@ -20,7 +20,7 @@ def convert_pdf(image):
     return '{}.jpg'.format(name)
 
 def get_text(image):
-    image_key1='447ebfa81afb4d2aa85e42439cc85b08'
+    image_key1='SUB_KEYS'
 
     headers={'Ocp-Apim-Subscription-Key' : image_key1, 'Content-Type': 'application/octet-stream'}
 
@@ -56,7 +56,7 @@ def get_text(image):
 
 
 def translate(text, language):
-    translator_key1='d5adb1359f1a447391b694bf7bc4f473'
+    translator_key1='SUB_KEYS'
 
     translator_api="https://api.cognitive.microsofttranslator.com/translate?api-version=3.0"
 
